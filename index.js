@@ -41,7 +41,7 @@ console.log(anniLavorati + anniNonLavorati)
  Crea una variable di nome "x" e assegna ad essa il numero 12.
 */
 
-let anniMutuo = 12;
+let x = 12;
 
 /* ESERCIZIO 5
  Crea una variable chiamata "name" e assegna ad essa il tuo nome, sotto forma di stringa.
@@ -54,7 +54,7 @@ let name = "Federico";
 */
 
 let anniMutuoPagato = 4;
-console.log("Anni ancora da pagare: " + (anniMutuo - anniMutuoPagato));
+console.log("Anni ancora da pagare: " + (x - anniMutuoPagato));
 
 /* ESERCIZIO 7
  Crea due variabili: "name1" e "name2". Assegna a name1 la stringa "john", e assegna a name2 la stringa "John" (con la J maiuscola!).
@@ -70,4 +70,4 @@ console.log(name1 !== name2); // true :(cioè conferma che non è uguale)
 let name3 = "jhon";
 let name4 = "Jhon";
 
-console.log(name3 == (name4.toLowerCase()));
+console.log(name3 === (name4.toLowerCase())); // adesso è uguale perche toLowerCase converte tutto in minuscola.
